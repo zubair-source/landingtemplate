@@ -8,8 +8,8 @@ name: deploy
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-      steps:
+
+    steps:
         - name: Step-1 Checkout-respository to ubuntu runner
           uses: actions/checkout@v3
 
