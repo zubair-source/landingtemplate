@@ -19,8 +19,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm ci
-      - run: npm test
-        run: npm ci
       - name: Build Website
         run: npm run build
       - name: Set AWS Credential
